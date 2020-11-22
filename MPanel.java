@@ -35,7 +35,7 @@ public class MPanel extends JPanel implements KeyListener ,ActionListener{
 	boolean isStarted = false;
 	boolean isFailed = false;
 	
-	Timer timerSlow =new Timer(120,this);
+	Timer timerSlow =new Timer(119,this);
 	Timer timerNormal =new Timer(90,this);
 	Timer timerFast =new Timer(70,this);
 	
